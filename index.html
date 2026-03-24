@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('background.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Weather Forecast</h1>
+            <img src="sunny.png" alt="Sunny Weather">
+            <p>It's a bright and sunny day!</p>
+            <img src="rainy.png" alt="Rainy Weather">
+            <p>Expect some rain today.</p>
+            <img src="cloudy.png" alt="Cloudy Weather">
+            <p>Cloudy with a chance of meatballs!</p>
+            <img src="snowy.png" alt="Snowy Weather">
+            <p>Snow is expected later!</p>
+        </div>
+    </div>
+</body>
+</html>
